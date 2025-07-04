@@ -167,6 +167,24 @@ JOIN Order_Status o ON k.Order_ID = o.Order_ID
 WHERE o.Status = 'Returned';
 ```
 
+**'419'** customers returned their order
+
+**Result Preview:**
+
+| Customer Name       | Customer Segment |
+|---------------------|------------------|
+| Tracy Blumstein     | Consumer         |
+| Allen Schofield     | Corporate        |
+| Sydney Linden       | Corporate        |
+| Mary Nachtrieb      | Home Office      |
+| Catherine Abelman   | Home Office      |
+| Gregory Shilling    | Consumer         |
+| Kathleen Norgard    | Consumer         |
+| Johnny Keffer       | Corporate        |
+| Charles Cajigas     | Small Business   |
+| Jesse Ingraham      | Home Office      |
+```
+
 ---
 
 **11. Was shipping mode used appropriately for priority?**
