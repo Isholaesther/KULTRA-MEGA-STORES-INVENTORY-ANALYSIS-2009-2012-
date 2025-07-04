@@ -23,13 +23,12 @@ As a Business Intelligence Analyst, I was tasked to analyze KMS's Abuja division
 The dataset used includes:
 - `KMS`: Sales and customer information (product category, sub-category, region, segment, etc.)
 - `Order_Status`: Returns data
-- Data spans orders placed between 2009 and 2012
+  
 
 ---
 
 ## 🛠️ Tools and Technique
 - **SQL Server 2022** for querying and analysis  
-- Basic Excel for viewing and interpreting data summaries  
 - SQL joins, aggregate functions (`SUM`, `COUNT`, `AVG`)  
 - Common Table Expressions (CTEs) for filtering and ranking  
 
@@ -177,7 +176,7 @@ FROM KMS
 GROUP BY Order_Priority, Ship_Mode 
 ORDER BY Order_Priority, Ship_Mode;
 ```
-- Summary:
+- Answer:
   - **Critical** orders often used **Express Air** and **Delivery Truck**
   - **Low** priority sometimes used **Air**, which raises cost concerns
   - KMS could better align shipping methods with order urgency
