@@ -167,7 +167,7 @@ JOIN Order_Status o ON k.Order_ID = o.Order_ID
 WHERE o.Status = 'Returned';
 ```
 
-**'419'** customers returned their order
+**419** customers returned their order
 
 **Result Preview:**
 
@@ -183,7 +183,7 @@ WHERE o.Status = 'Returned';
 | Johnny Keffer       | Corporate        |
 | Charles Cajigas     | Small Business   |
 | Jesse Ingraham      | Home Office      |
-```
+
 
 ---
 
